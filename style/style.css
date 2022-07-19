@@ -30,8 +30,8 @@ li {
     padding: 16px 25px;
     text-transform: capitalize;
 }
-.main-container {
-    display: flex;
+.view-all{
+    display: none;
 }
 /* End Common Style */
 /* Start Banner */
@@ -67,10 +67,17 @@ li {
 
 .banner-description a {
     display: inline-block;
+    border: 1px solid transparent;
+    transition: all .5s;
+}
+.banner-description a:hover {
+    border: 1px solid #dd0000;
+    background-color: transparent;
 }
 .banner-description a i {
     color: #ffffff;
     font-size: 16px;
+    margin-left: 6px;
 }
 .banner-right {
     width: 50%;
@@ -122,13 +129,18 @@ aside.button-area .button-group {
     background-color: #ffffff;
     cursor: pointer;
     outline: none;
+    transition: all .4s;
 }
+.button-group .blog-button:hover{
+    background-color: #dd0000;
+}
+
 .button-group .blog-button a {
     color: #161616;
+    transition: all .4s;
 }
-.button-group .blog-button a:visited {
-    color: #161616;
-    font-size: 40px;
+.button-group .blog-button:hover > a{
+    color: #ffffff;
 }
 .blog-right-area {
     display: grid;
@@ -166,8 +178,6 @@ aside.button-area .button-group {
     line-height: 27px;
     color: #161616;
     padding: 15px 0px 20px;
-}
-.blog-info .blog-duration-comment {
 }
 .blog-info .blog-duration-comment li {
     display: inline-block;
@@ -280,6 +290,10 @@ aside.button-area .button-group {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s;
+}
+.social-menu li:hover a{
+    background-color: #dd0000;
 }
 .social-menu li a i {
     font-size: 16px;
