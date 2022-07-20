@@ -382,6 +382,14 @@
     .ptb-70 {
         padding: 70px 0px 80px;
     }
+    aside.button-area {
+        width: 290px;
+        height: 290px;
+    }
+    .button-group .blog-button {
+        width: 238px;
+        height: 62px;
+    }
     .blog-right-area {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 20px;
