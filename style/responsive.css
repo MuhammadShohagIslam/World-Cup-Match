@@ -5,6 +5,12 @@
         line-height: 19px;
         padding: 12px 22px;
     }
+    .main-container-area {
+        display: flex;
+        column-gap: 0px;
+        row-gap: 24px;
+        flex-direction: column;
+    }
     .banner-area {
         display: flex;
         width: 88%;
@@ -50,12 +56,6 @@
     }
     main.ptb-130.ptb-70 {
         padding: 28px 0px;
-    }
-    .blog-area {
-        display: flex;
-        column-gap: 0px;
-        row-gap: 24px;
-        flex-direction: column;
     }
     aside.button-area {
         width: 100%;
@@ -163,6 +163,12 @@
         padding: 12px 18px;
         display: inline-block;
     }
+    .main-container-area {
+        display: flex;
+        column-gap: 0px;
+        row-gap: 31px;
+        flex-direction: column;
+    }
     .banner-area {
         display: flex;
         width: 88%;
@@ -194,12 +200,6 @@
     }
     .ptb-70 {
         padding: 70px 0px 80px;
-    }
-    .blog-area {
-        display: flex;
-        column-gap: 0px;
-        row-gap: 31px;
-        flex-direction: column;
     }
     aside.button-area {
         flex-direction: row;
@@ -300,6 +300,12 @@
         padding: 12px 18px;
         display: inline-block;
     }
+    .main-container-area {
+        display: flex;
+        column-gap: 0px;
+        row-gap: 31px;
+        flex-direction: column;
+    }
     .banner-area {
         display: flex;
         width: 88%;
@@ -341,12 +347,6 @@
     }
     .ptb-70 {
         padding: 70px 0px 80px;
-    }
-    .blog-area {
-        display: flex;
-        column-gap: 0px;
-        row-gap: 31px;
-        flex-direction: column;
     }
     aside.button-area {
         flex-direction: row;

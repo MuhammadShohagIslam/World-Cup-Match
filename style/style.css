@@ -30,6 +30,13 @@ li {
     padding: 16px 25px;
     text-transform: capitalize;
 }
+.main-container-area {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    column-gap: 24px;
+}
 .view-all {
     display: none;
 } /* End Common Style */
@@ -108,13 +115,6 @@ li {
 /* End Banner */
 
 /* Start Blog */
-.blog-area {
-    width: 88%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: start;
-    column-gap: 24px;
-}
 aside.button-area {
     display: flex;
     flex-direction: column;
@@ -323,9 +323,6 @@ aside.button-area .button-group {
     align-items: center;
     justify-content: center;
     transition: all 0.3s;
-}
-.social-menu li:hover a {
-    background-color: #dd0000;
 }
 .social-menu li a i {
     font-size: 16px;
