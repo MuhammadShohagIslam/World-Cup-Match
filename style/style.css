@@ -30,6 +30,10 @@ li {
     padding: 16px 25px;
     text-transform: capitalize;
 }
+button#active {
+    background-color: #dd0000;
+    color: #ffffff;
+}
 .main-container-area {
     width: 88%;
     margin: 0 auto;

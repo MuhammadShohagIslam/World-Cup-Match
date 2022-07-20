@@ -8,7 +8,7 @@
     .main-container-area {
         display: flex;
         column-gap: 0px;
-        row-gap: 24px;
+        row-gap: 20px;
         flex-direction: column;
     }
     .banner-area {
@@ -17,23 +17,29 @@
         height: 472px;
         background: #161616;
         border-radius: 30px;
-        margin: 50px auto 0px;
+        margin: 22px auto 0px;
         flex-direction: column;
         justify-content: space-between;
     }
     .banner-left {
         width: 100%;
         text-align: center;
-        padding: 28px 38px 0px;
+        padding: 30px 38px 0px;
     }
     .banner-description h1 {
-        font-size: 22px;
-        line-height: 33px;
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .banner-description {
+        overflow: hidden;
     }
     .banner-description p {
         font-size: 14px;
         line-height: 24px;
         padding: 8px 0px 16px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
     .banner-description a i {
         font-size: 13px;
@@ -46,10 +52,11 @@
         padding-left: 10px;
         display: flex;
         justify-content: center;
+        height: 100%;
     }
     .banner-right img {
         width: 73%;
-        height: 173px;
+        height: 93%;
         position: absolute;
         bottom: 0;
         animation: none;
@@ -117,6 +124,9 @@
     .single-upcoming-match {
         padding: 35px 24px;
     }
+    .two-country-flag {
+        justify-content: space-evenly;
+    }
     .upcoming-match-info h2 {
         font-size: 16px;
         line-height: 22px;
@@ -128,6 +138,7 @@
     }
     .footer-area {
         height: auto;
+        padding-bottom: 9px;
     }
     .footer-title {
         padding: 24px 0px;
@@ -151,7 +162,18 @@
         margin-bottom: 24px;
     }
     .social-menu {
-        display: none;
+        padding-top: 3px;
+        padding-bottom: 20px;
+    }
+    .social-menu li {
+        margin-left: 6px;
+    }
+    .social-menu li a {
+        width: 30px;
+        height: 30px;
+    }
+    .social-menu li a i {
+        font-size: 12px;
     }
 }
 
@@ -175,7 +197,7 @@
         height: 454px;
         background: #161616;
         border-radius: 30px;
-        margin: 50px auto 0px;
+        margin: 46px auto 0px;
     }
     .banner-left {
         padding: 50px 0px 50px 75px;
@@ -266,12 +288,16 @@
     .single-upcoming-match {
         padding: 53px 40px;
     }
+    .two-country-flag {
+        justify-content: space-evenly;
+    }
     .upcoming-match-info h2 {
         font-size: 18px;
         line-height: 26px;
     }
     .footer-area {
-        height: 350px;
+        height: auto;
+        padding-bottom: 50px;
     }
     .footer-title {
         padding: 70px 0px 30px;
@@ -289,7 +315,17 @@
         margin-left: 0px;
     }
     .social-menu {
-        display: none;
+        padding-top: 16px;
+    }
+    .social-menu li {
+        margin-left: 8px;
+    }
+    .social-menu li a {
+        width: 32px;
+        height: 32px;
+    }
+    .social-menu li a i {
+        font-size: 14px;
     }
 }
 /* Large Devices */
@@ -370,7 +406,7 @@
         border: 1px solid #e8e8e8;
     }
     .blog-right-area {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;
         row-gap: 20px;
     }
